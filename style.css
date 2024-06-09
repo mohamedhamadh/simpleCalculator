@@ -41,7 +41,7 @@ button{
     font-size: 40px;
     font-weight: bolder;
     cursor: pointer;
-   
+    transition: linear .1s;
 }
 button:hover{
     background-color: hsl(0, 0%, 44%);
@@ -57,4 +57,11 @@ background-color: hsl(0, 0%, 30%);
 }
 #operator:active{
     background-color: hsl(35,100% ,75%);
+}
+
+@media screen and (max-width:1200px){
+    button{
+        width: 80px;
+        height: 80px;
+    }
 }
